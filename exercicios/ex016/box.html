@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 0px;
+        }
+
+        header{
+            width: 600px;
+            background-color: rgb(189, 247, 247);
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        h1{
+            text-align: center;
+            box-shadow: inset 2px 1px 14px 6px black;
+        }
+
+        nav{
+            background-color: powderblue;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        nav > a {
+            
+           text-decoration: none;
+           color: white;
+           font-weight: bold;
+           margin-right: 30px;
+        }
+
+        main{
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgb(32, 31, 31);
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            
+            
+        }
+
+        article{
+            background-color: azure;
+        }
+
+        article > aside{
+            background-color: beige;
+            padding: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 7px;
+            margin: 0px;
+
+        }
+
+        footer > p{
+            color: whitesmoke;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+   <header>
+       <h1>日本語を勉強するぞ！</h1>
+
+       <nav>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a>
+       </nav>
+
+   </header>
+
+   <main>
+       <section id="assuntos">
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eius in corporis sunt inventore ad voluptatem deleniti eligendi id. Placeat laboriosam maxime ut atque a, laborum hic saepe numquam cumque.</p>
+       </section>
+
+       <section id="noticias">
+
+        <article>
+            <h2>#</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti inventore dolorem at nihil totam, distinctio aspernatur. Ut ipsa nam repudiandae laboriosam dicta inventore voluptate, adipisci numquam odit delectus aliquam. Et.</p>
+        </article>
+
+       </section>
+
+   </main>
+
+   <footer>
+
+    <p>自分で作った</p>
+
+   </footer>
+
+</body>
+
+</html>

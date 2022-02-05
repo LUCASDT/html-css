@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(9, 236, 187);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1{
+    color: rgb(9, 154, 190);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: darkcyan;
+    color: whitesmoke;
+    /*em html é id = # em css
+    em html é class = . em css*/
+}
+h2{
+    color: rgba(7, 90, 167, 0.822);
+}
+
+.basico{
+    color: rgb(3, 156, 80);
+}
+.intermediario{
+    color: yellow;
+}
+.avançado{
+    color: rgb(207, 15, 15);
+}

@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+:root{
+--cor1:#B83330;
+--cor2:#116B68;
+--cor3:#27B8B3;
+ 
+--fonte-titulos:'Noto Sans JP', sans-serif;
+}
+
+body{
+    background-color:#B8AD7B ;
+    margin: auto;
+    border-radius: 10px;   
+}
+
+*{
+    padding:0px;
+    margin: 0px;    
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3)
+    
+    );
+  padding-top: 10px; 
+}
+
+header  h1{
+    color: rgb(236, 227, 227);
+    text-align: center;
+    font-family: var(--fonte-titulos);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);     
+}
+
+header > p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+}
+
+nav{
+    background-color: rgb(47, 214, 214);
+    padding: 10px;   
+}
+
+nav > a{
+    color: rgb(59, 29, 29);
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 8px 38px 8px 38px;
+    border-radius: 12px;
+    transition-duration: .4s;    
+}
+
+nav > a:hover{
+    background-color:var(--cor2) ;
+    color: aliceblue;
+}
+
+main{
+    background-color: white;
+    font-size: normal;
+    margin-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;   
+}
+
+main h1{
+    font-size: 1.8em;
+    background-image: linear-gradient(to right,rgb(47, 214, 214) , transparent);
+    color: rgb(23, 24, 26);
+    padding-top: 0px;
+    text-indent: 10px;    
+}
+
+main p{
+    font-size: 1.2em;
+    text-align: justify;
+    font-weight: 400;
+    text-indent: 20px;
+    margin:12px ;
+}   
+
+main h2{
+    font-size: 1.8em;
+    background-image: linear-gradient(to right,rgb(47, 214, 214) , transparent);
+    color: rgb(23, 24, 26);
+    text-indent: 10px;   
+}
+
+main h3{
+    font-size: 1.8em;
+    background-image: linear-gradient(to right,rgb(47, 214, 214) , transparent);
+    color: rgb(23, 24, 26);
+    text-indent: 10px;  
+}
+ main h4{
+    font-size: 1.8em;
+    background-image: linear-gradient(to right,rgb(47, 214, 214) , transparent);
+    color: rgb(23, 24, 26);
+    text-indent: 10px;  
+} 
+ main ul{
+    list-style-position: inside;
+    columns: 2;
+    background-color: #27B8B3;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px ;   
+ }
+
+main ul > h5{
+    background-color: #10817e;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: left;
+    text-indent: 15px;   
+}
+
+main img.livros{
+    position: relative;
+    left: 180px;
+    bottom: 12px;
+    width: 280px;    
+}
+
+main img.logo{
+    position: relative;
+    left: 180px;
+    height: 130px;    
+}
+
+main img.fone{
+    position: relative;
+    left: 230px;
+    height: 140px;    
+}
+
+main img.yt{
+    position: relative;
+    left: 70px;
+    height: 80px;
+    bottom: -10px;   
+}
+
+main img.menina{
+    position: relative;
+    height: 140px; 
+    left: 210px;
+}
+
+ footer{
+     background-color: black;
+     color: white;
+     font-size: 0.8em;
+     padding: 2px;
+     text-align: center;
+     border-radius: 0px 0px 5px 5px ;
+ }
